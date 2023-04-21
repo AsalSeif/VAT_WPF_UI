@@ -1,0 +1,9 @@
+D:\WpfApps\WpfTaxApp\CommonException\bin\Debug\netstandard2.0\CommonException.deps.json
+D:\WpfApps\WpfTaxApp\CommonException\bin\Debug\netstandard2.0\CommonException.dll
+D:\WpfApps\WpfTaxApp\CommonException\bin\Debug\netstandard2.0\CommonException.pdb
+D:\WpfApps\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.csprojAssemblyReference.cache
+D:\WpfApps\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.AssemblyInfoInputs.cache
+D:\WpfApps\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.AssemblyInfo.cs
+D:\WpfApps\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.csproj.CoreCompileInputs.cache
+D:\WpfApps\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.dll
+D:\WpfApps\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.pdb

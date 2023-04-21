@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gujH0+RFSnIA3L/cJ6la9sgsj1VFe5BJkg8ZigNliAnpX67yQFPovAAsvnQEVrgc88Zro8yPon5eNOJ4QHq3Aw==",
+  "success": true,
+  "projectFilePath": "D:\\WpfApps\\WpfTaxApp\\BusinessException\\BusinessException.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ruqia\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ruqia\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,52 @@
+﻿<Window x:Class="WpfTaxApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTaxApp"
+        mc:Ignorable="d"
+        Title="VAT Calculator" Height="315.175" Width="528.599">
+    <Grid Background="AliceBlue" Margin="0,0,0,-3">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="3*" />
+        </Grid.RowDefinitions>
+        <GridSplitter Grid.Row="1" Grid.Column="1" Height="1" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+        <GridSplitter Grid.Row="1" Height="1" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+        <GridSplitter Grid.Row="2" Grid.Column="1" Height="1" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+        <GridSplitter Grid.Row="2" Height="1" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+        <Label Name="Country" Grid.Row="0" Grid.Column="0" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"  >Country</Label>
+        <ComboBox Name="CountryComboBox" Grid.Column="1" Width="151" Height="25" VerticalAlignment="Center" HorizontalAlignment="Left"  SelectionChanged="CountryComboBox_SelectionChanged" Margin="10,0,0,0">
+        </ComboBox>
+        <Label x:Name="VATRate" Grid.Row="1" Grid.Column="0" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Center"  Content="VATRates" Margin="10,0,0,0"  />
+        <StackPanel Name="TaxRates"  Grid.Row="1" Grid.Column="1" MaxHeight="300" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0">
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type RadioButton}">
+                    <Setter Property="Margin" Value="0,10,0,0"/>
+                </Style>
+            </StackPanel.Resources>
+        </StackPanel>
+        <StackPanel Margin="10,15,0,21" Grid.Row="2" Grid.Column="1" Width="150" VerticalAlignment="Center" HorizontalAlignment="Left" Height="147">
+            <Label Margin="0,0,0,10">Calculation values :</Label>
+            <TextBox Name="tb_NetValue"  Height="25"   Margin="0,0,0,10" KeyDown="Tb_KeyDown"/>
+            <TextBox Name="tb_VATValue"  Height="25"  Margin="0,0,0,10" KeyDown="Tb_KeyDown"/>
+            <TextBox Name="tb_GrossVlaue" Height="25"  Margin="0,0,0,10" KeyDown="Tb_KeyDown"/>
+
+        </StackPanel>
+
+        <StackPanel Margin="10" Grid.Row="2"  VerticalAlignment="Center" HorizontalAlignment="Left">
+            <Label Margin="0,0,0,10">Calculation type :</Label>
+            <RadioButton Name="lb_Net"  FontSize="12" Margin="0,0,0,20" Checked="Radiobutton_Checked">Price Without VAT</RadioButton>
+            <RadioButton Name="lb_VAT"  FontSize="12" Margin="0,0,0,20" Checked="Radiobutton_Checked">Value Added Tax</RadioButton>
+            <RadioButton Name="lb_Gross"  FontSize="12" Margin="0,0,0,20" Checked="Radiobutton_Checked"  IsChecked="True">Price With VAT</RadioButton>
+        </StackPanel>
+
+    </Grid>
+</Window>
