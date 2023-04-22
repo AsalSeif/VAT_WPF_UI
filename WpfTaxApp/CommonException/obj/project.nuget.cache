@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3mjHlgHlPWvKfQ4JayWxyy00kKD4Srzv2Q6zvba0tr4imNIraaBrGEXIo2oL0Z/dHA4XGhCVO+CH+IzygBw0pg==",
+  "dgSpecHash": "L1xHEH0jAfjGZrqrZFBWC5CDLxCm5F92HNIDWFp9dBjJ+LuAPZGq6rjTXuf8WJBNqWzBXmiW4U/N10sxvvCwMg==",
   "success": true,
-  "projectFilePath": "D:\\WpfApps\\WpfTaxApp\\CommonException\\CommonException.csproj",
+  "projectFilePath": "D:\\WpfApps\\VAT_WPF_UI\\WpfTaxApp\\CommonException\\CommonException.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ruqia\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Ruqia\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

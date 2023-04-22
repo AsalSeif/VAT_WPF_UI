@@ -248,7 +248,7 @@ namespace WpfTaxApp
             TaxRates.Children.Clear();
             foreach (var item in texRateValues)
             {
-                RadioButton rb = new RadioButton() { Content = item.ToString() + "%", };
+                RadioButton rb = new RadioButton() { Content = item.ToString() + "% ", };
                 TaxRates.Children.Add(rb);
 
             }

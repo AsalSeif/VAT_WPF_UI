@@ -7,3 +7,12 @@ D:\WpfApps\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.As
 D:\WpfApps\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.csproj.CoreCompileInputs.cache
 D:\WpfApps\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.dll
 D:\WpfApps\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.pdb
+D:\WpfApps\VAT_WPF_UI\WpfTaxApp\CommonException\bin\Debug\netstandard2.0\CommonException.deps.json
+D:\WpfApps\VAT_WPF_UI\WpfTaxApp\CommonException\bin\Debug\netstandard2.0\CommonException.dll
+D:\WpfApps\VAT_WPF_UI\WpfTaxApp\CommonException\bin\Debug\netstandard2.0\CommonException.pdb
+D:\WpfApps\VAT_WPF_UI\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.csprojAssemblyReference.cache
+D:\WpfApps\VAT_WPF_UI\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.AssemblyInfoInputs.cache
+D:\WpfApps\VAT_WPF_UI\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.AssemblyInfo.cs
+D:\WpfApps\VAT_WPF_UI\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.csproj.CoreCompileInputs.cache
+D:\WpfApps\VAT_WPF_UI\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.dll
+D:\WpfApps\VAT_WPF_UI\WpfTaxApp\CommonException\obj\Debug\netstandard2.0\CommonException.pdb
