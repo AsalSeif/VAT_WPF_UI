@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WpfApps\\VAT_WPF_UI\\WpfTaxApp\\CommonException\\CommonException.csproj",
+      "projectUniqueName": "D:\\WpfApps\\WpfTaxApp\\CommonException\\CommonException.csproj",
       "projectName": "CommonException",
-      "projectPath": "D:\\WpfApps\\VAT_WPF_UI\\WpfTaxApp\\CommonException\\CommonException.csproj",
+      "projectPath": "D:\\WpfApps\\WpfTaxApp\\CommonException\\CommonException.csproj",
       "packagesPath": "C:\\Users\\Ruqia\\.nuget\\packages\\",
-      "outputPath": "D:\\WpfApps\\VAT_WPF_UI\\WpfTaxApp\\CommonException\\obj\\",
+      "outputPath": "D:\\WpfApps\\WpfTaxApp\\CommonException\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ruqia\\AppData\\Roaming\\NuGet\\NuGet.Config",
